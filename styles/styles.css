@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.full-site{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    width:100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.header img{
+    width: 100%;
+}
+.header .black-shadow{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    opacity: 0.5;
+}
