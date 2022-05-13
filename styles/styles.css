@@ -13,7 +13,6 @@ body{
 
 .header{
     width:100%;
-    min-height: 100%;
     position: relative;
 }
 
@@ -28,4 +27,46 @@ body{
     width:100%;
     background-color: black;
     opacity: 0.5;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content .top{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: center;
+}
+.content .top .logo{
+    flex:1;
+    max-height: 50%;
+    max-width: 50%;
+}
+.content .top .logo img{
+    width: 150px;
+    padding: 2rem 2rem;
+}
+.content .top .navbar{
+    flex:1;
+}
+.content .bottom{
+    flex:1;
+    color: white;
+}
+
+.logo{
+    margin-right:auto ;
+}
+.navbar{
+    color:white;
+    padding: 2rem 0;
 }
