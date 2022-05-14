@@ -60,10 +60,10 @@ section{
     flex-shrink: 1;
 }
 .content .bottom{
-    padding-top:20vw;
-    flex:1 1 50%;
+    flex:1;
     color: white;
 }
+
 
 .logo{
     margin-right:auto ;
@@ -104,7 +104,7 @@ section{
     display: flex;
     justify-content: flex-start;
     padding-left: 7vh;
-    padding-bottom: 7vh;
+    padding-top: 7%;
     padding-right: 7vh;
 }
 .bottom .bottom-content{
@@ -119,15 +119,12 @@ h1{
     font-weight: bolder;
     padding-bottom: 7vh;
 }
-.bottom .button{
-    padding-top: 7vh;
-}
 
 .bottom p{
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
 }
 .number{
-    padding:7vh 7vh;
+    padding:7vh;
 }
 .number .container-num{
     display: flex;
