@@ -167,3 +167,9 @@ h1{
     color: #0d0;
 }
 
+.courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
