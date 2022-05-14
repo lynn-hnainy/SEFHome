@@ -172,4 +172,21 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:100%;
+    padding:2vh 7vh;
+    background: #0d0;
+}
+.courses .courses-container{
+    width:90%;
+    padding:4vw 10vw;
+    align-self:center ;
+}
+
+.courses .courses-container .col2{
+    float:left;
+    width: 50%;
+}
+.courses .courses-container .col2 img{
+    width:100%;
+    padding:0 2vw;
 }
