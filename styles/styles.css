@@ -230,16 +230,16 @@ h1{
     padding-top: 1vw;
 }
 
-.quote{
+.quote,.newsletter{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2vw 0;
 }
-.in-media{
+.in-media,.newsletter{
     background: rgb(212, 211, 211);
 }
-.media-container,.partners,.fundings{
+.media-container,.partners,.fundings,.newsletter .container{
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -272,4 +272,12 @@ h1{
 }
 hr{
     flex:0 0 100%;
+}
+
+.newsletter .container .button button{
+    background: black;
+    font-size: 2vw;
+    color: white;
+    border-radius: 5px;
+    padding:1vw;
 }
