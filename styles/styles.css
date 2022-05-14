@@ -78,7 +78,8 @@ body{
     color:white;
     margin-left: 2.2vw;
 }
-.navbar ul .apply-now{
+.navbar ul .apply-now,
+.bottom  a{
     background-color: #0d0;
     border-radius: 5px;
     padding: 10px 20px;
@@ -86,13 +87,36 @@ body{
     font-weight: bolder;
     max-width:fit-content;
     height: 40px;
+    color: white;
+    text-decoration: none;
 }
 .navbar ul li a{
     text-decoration: none;
     color:white;
 }
 .bottom{
-    margin: auto;
-    padding: auto;
-
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 7vh;
+    padding-bottom: 7vh;
+    padding-right: 7vh;
 }
+.bottom .bottom-content{
+    width:50%;
+}
+.bottom .emty-div{
+    width:50%;
+}
+h1{
+    font-size:calc((3.5 - 1) * 1.2vw + 1rem);
+    font-weight: bolder;
+    padding-bottom: 7vh;
+}
+.bottom .button{
+    padding-top: 7vh;
+}
+
+.bottom p{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+}
+
