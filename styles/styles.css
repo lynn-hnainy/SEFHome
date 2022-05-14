@@ -139,3 +139,30 @@ h1{
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
 }
 
+.learn-more .container-learn{
+    display: flex;
+    justify-content: center;
+    padding: 7vh;
+}
+
+.learn-more .container-learn .col6{
+    width: 50%;
+}
+.learn-more .container-learn .col6 img{
+    max-width: 70%;
+}
+.learn-more .container-learn .col6 h2{
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    font-style: normal;
+}
+.learn-more .container-learn .col6 h2 strong{
+    font-style: bold;
+}
+.learn-more .container-learn .col6 p{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    white-space: pre-wrap;
+    padding-top: 7vh;
+}
+.learn-more .container-learn .col6 p a{
+    color: #0d0;
+}
