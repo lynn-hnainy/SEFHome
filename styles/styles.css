@@ -119,6 +119,21 @@ h1{
 .bottom p{
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
 }
+.number{
+    padding:7vh 7vh;
+}
+.number .container-num{
+    display: flex;
+    justify-content: space-around;
+}
+.number .container-num .col4{
+    text-align: center;
+}
 
-
-
+.number .container-num .col4 h1{
+    color: #0d0;
+}
+.number .container-num .col4 strong{
+    font-weight: bold;
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+}
