@@ -287,6 +287,38 @@ hr{
     cursor: pointer;
 }
 
-.footer{
+footer{
     background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
 }
+
+footer .container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+footer .container .link{
+    color:#0d0;
+}
+footer .container .copyrights{
+    color:white;
+}
+footer .container .social{
+    display: flex;
+    justify-content: space-around;
+}
+footer .container .social .icon{
+    
+    padding-right: 2vw;
+    font-size: 3vh;
+}
+footer .container .social .icon a{
+    text-decoration: none;
+    color: white;
+}
+/*@media only screen and (max-width: 700px){
+    .content,
+}*/
