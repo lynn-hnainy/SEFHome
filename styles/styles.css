@@ -12,6 +12,8 @@
 }
 body{
     font-family: sans-serif;
+    width: fit-content;
+    height: fit-content;
 }
 
 .header{
@@ -237,33 +239,37 @@ h1{
 .in-media{
     background: rgb(212, 211, 211);
 }
-.media-container{
+.media-container,.partners,.fundings{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:0 2vw;
+    padding:0 1vw;
+    flex-wrap: wrap;
 }
-.media-container .title {
+.title {
     padding: 2vw;
 }
-.media-container .title h4{
+.title h4{
     font-size: 3vw;
     text-align: center;
 }
-.media-container .row{
+.row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 2vw;
 }
 
-.media-container .row .col{
+.row .col{
     padding: auto;
     flex:1;
 }
-.media-container .row .col img{
+.row .col img{
     width: 90%;
     height: 90%;
+}
+hr{
+    flex:0 0 100%;
 }
