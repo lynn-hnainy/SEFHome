@@ -227,3 +227,10 @@ h1{
     font-size: 1vw;
     padding-top: 1vw;
 }
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 0;
+}
