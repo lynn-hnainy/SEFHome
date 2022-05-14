@@ -103,6 +103,7 @@ body{
 }
 .bottom .bottom-content{
     width:50%;
+    padding-right: 4vh;
 }
 .bottom .emty-div{
     width:50%;
@@ -137,3 +138,4 @@ h1{
     font-weight: bold;
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
 }
+
