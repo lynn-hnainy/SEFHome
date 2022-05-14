@@ -270,8 +270,12 @@ h1{
     width: 90%;
     height: 90%;
 }
+.line{
+    display: flex;
+    flex: 1;
+}
 hr{
-    flex:0 0 100%;
+    flex-grow: 1;
 }
 
 .newsletter .container .button button{
@@ -280,4 +284,9 @@ hr{
     color: white;
     border-radius: 5px;
     padding:1vw;
+    cursor: pointer;
+}
+
+.footer{
+    background: black;
 }
