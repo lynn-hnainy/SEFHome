@@ -149,7 +149,7 @@ h1{
     width: 50%;
 }
 .learn-more .container-learn .col6 img{
-    max-width: 70%;
+    max-width: 100%;
 }
 .learn-more .container-learn .col6 h2{
     font-size: calc((3 - 1) * 1.2vw + 1rem);
