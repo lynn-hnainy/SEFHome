@@ -334,5 +334,11 @@ footer .container .social .icon a{
             flex-direction: column;
             padding: auto;
         }
+        footer .container .copyrights{
+            align-self: center;
+        }
+        footer .container .social{
+            align-self: flex-end;
+        }
 }
 
