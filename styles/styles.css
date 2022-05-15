@@ -187,21 +187,21 @@ h1{
     font-size: 4vw;
     font-weight:400;
     text-align: center;
+    align-self: center;
     color: white;
-    padding-top: 1vw;
+    padding: 1vw 0;
 }
 .courses .title .strong{
     font-weight: bold;
 }
 .courses .courses-container{
-    width:90%;
-    padding:4vw 10vw;
-    align-self:center ;
+    width:100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .courses .courses-container .col2{
-    float:left;
     width: 50%;
 }
 .courses .courses-container .col2 img{
@@ -320,9 +320,11 @@ footer .container .social .icon a{
     text-decoration: none;
     color: white;
 }
-@media only screen and (max-width: 700px){
-    .media-container .row,.number .container-num,.learn-more .container-learn{
+@media only screen and (max-width: 767px){
+    .media-container .row,.number .container-num,.learn-more .container-learn,.courses .courses-container{
         flex-direction: column;
+        float: none;
+        padding:auto;
         }
         
 }
