@@ -117,13 +117,13 @@ section{
     width:50%;
 }
 h1{
-    font-size:calc((3.5 - 1) * 1.2vw + 1rem);
+    font-size:4vw;
     font-weight: bolder;
     padding-bottom: 7vh;
 }
 
 .bottom p{
-    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    font-size: 2vw;
 }
 .number{
     padding:7vh;
@@ -141,7 +141,7 @@ h1{
 }
 .number .container-num .col4 strong{
     font-weight: bold;
-    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    font-size: 2vw;
 }
 
 .learn-more .container-learn{
@@ -157,14 +157,14 @@ h1{
     max-width: 100%;
 }
 .learn-more .container-learn .col6 h2{
-    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    font-size: 3vw;
     font-style: normal;
 }
 .learn-more .container-learn .col6 h2 strong{
     font-style: bold;
 }
 .learn-more .container-learn .col6 p{
-    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    font-size: 2vw;
     white-space: pre-wrap;
     padding-top: 7vh;
 }
@@ -227,7 +227,7 @@ h1{
 }
 
 .rec-partner .title p{
-    font-size: 1vw;
+    font-size: 1.5vw;
     padding-top: 1vw;
 }
 
@@ -321,11 +321,18 @@ footer .container .social .icon a{
     color: white;
 }
 @media only screen and (max-width: 767px){
-    .media-container .row,.number .container-num,.learn-more .container-learn,.courses .courses-container{
+    .media-container .row,.number .container-num,.learn-more .container-learn,.courses .courses-container,.row{
         flex-direction: column;
-        float: none;
-        padding:auto;
+        justify-content: center;
+        align-items: center;
+    }
+        .partners .row .col img{
+            width:100%;
+            padding-top: 2vw;
         }
-        
+        footer .container{
+            flex-direction: column;
+            padding: auto;
+        }
 }
 
