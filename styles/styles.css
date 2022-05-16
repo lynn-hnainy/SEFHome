@@ -112,9 +112,14 @@ section{
 .bottom .bottom-content{
     width:50%;
     padding-right: 4vh;
+    flex:1;
+}
+.bottom .bottom-content .button{
+    padding-top:10%;
 }
 .bottom .emty-div{
     width:50%;
+    flex:1;
 }
 h1{
     font-size:4vw;
