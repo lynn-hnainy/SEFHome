@@ -153,10 +153,10 @@ h1{
 }
 
 .learn-more .container-learn .col6{
-    width: 50%;
+    flex:1;
 }
 .learn-more .container-learn .col6 img{
-    max-width: 100%;
+    width: 100%;
 }
 .learn-more .container-learn .col6 h2{
     font-size: 3vw;
@@ -173,6 +173,7 @@ h1{
 .learn-more .container-learn .col6 p a{
     color: #0d0;
     border-bottom: 1px solid #0d0;
+    text-decoration: none;
 }
 .learn-more .con p a:hover{
     text-decoration: none;
